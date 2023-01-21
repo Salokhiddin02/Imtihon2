@@ -1,0 +1,135 @@
+footer {
+  width: 100%;
+  height: 400px;
+  border: 1px solid;
+  .footer__list {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 0 165px;
+
+    background-image: url('/images/Mask.png');
+    .footer-item1 {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        font-family: 'Space Mono';
+        font-size: 48px;
+        color: white;
+        width: 450px;
+        margin-left: 0;
+      }
+    }
+    .footer-item2 {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .btnf1 {
+        width: 160px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 0 15px;
+        padding: 7px;
+        border: none;
+        i {
+          color: #495567;
+          font-size: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .text {
+          width: 70%;
+          p {
+            font-size: 10px;
+            font-family: 'Space Mono';
+            margin-left: 0;
+          }
+          h4 {
+            font-family: 'Space Mono';
+            font-size: 20px;
+          }
+        }
+      }
+      .btnf1:hover {
+        background-color: #686e75;
+        color: white;
+      }
+      .btnf2 {
+        width: 182px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 0 15px;
+        padding: 7px;
+        border: none;
+        i {
+          color: #495567;
+          font-size: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .text {
+          width: 70%;
+          p {
+            font-size: 10px;
+            font-family: 'Space Mono';
+            display: flex;
+            align-items: flex-start;
+          }
+          h4 {
+            font-family: 'Space Mono';
+            font-size: 20px;
+          }
+        }
+      }
+      .btnf2:hover {
+        background-color: #686e75;
+        color: white;
+      }
+    }
+  }
+  .footer__list2 {
+    width: 100%;
+    height: 100px;
+    background-color: #333a44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 165px;
+    .footer__navbar-logo {
+      width: 20%;
+    }
+    .footer__navbar-item {
+      width: 35%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      a {
+        color: #939caa;
+      }
+      a:hover {
+        color: black;
+      }
+    }
+    .footer__navbar-link {
+      width: 45%;
+      display: flex;
+      padding-left: 30%;
+      i {
+        margin: 0 15px;
+        font-size: 25px;
+        color: #fcb72b;
+      }
+    }
+  }
+}

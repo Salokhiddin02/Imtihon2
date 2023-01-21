@@ -1,0 +1,214 @@
+main {
+  width: 100%;
+  height: 3000px;
+  .section1 {
+    width: 100%;
+    height: 650px;
+    background-image: url('/images/bg\ img.png');
+
+    &__text {
+      width: 100%;
+      height: 160px;
+      padding: 0 165px;
+
+      h2 {
+        padding-top: 157px;
+        width: 500px;
+        height: 112px;
+        font-size: 54px;
+        margin-left: 0;
+        color: white;
+        font-family: 'Space Mono';
+      }
+    }
+
+    &__text2 {
+      width: 100%;
+      padding-top: 157px;
+      display: flex;
+
+      .text2-p {
+        border-bottom: 15px solid#FCB72B;
+        width: 203px;
+        height: 15px;
+        margin-top: 30px;
+        margin-left: 0;
+      }
+
+      .text2-p2 {
+        font-family: 'Lexend Deca';
+        width: 350px;
+        height: 100px;
+        color: white;
+        font-size: 15px;
+        margin-left: -197px;
+      }
+
+      .text2-img {
+        margin-left: -190px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .section2 {
+    width: 100%;
+    padding: 150px 165px 0 165px;
+    &__list {
+      width: 100%;
+      display: flex;
+      height: 400px;
+
+      li {
+        width: 350px;
+        margin-left: 0;
+
+        img {
+          width: 96px;
+          height: 96px;
+        }
+
+        h4 {
+          font-family: 'Space Mono';
+          font-size: 24px;
+          margin-top: 35px;
+          color: #495567;
+        }
+
+        p {
+          font-family: 'Lexend Deca';
+          margin-top: 15px;
+          color: #939caa;
+        }
+      }
+    }
+    &__list2 {
+      width: 100%;
+      display: flex;
+      margin-top: 150px;
+      .list-item22 {
+        width: 40%;
+        h3 {
+          width: 445px;
+          font-family: 'Space Mono';
+          font-size: 45px;
+          color: #495567;
+        }
+        p {
+          font-family: 'Lexend Deca';
+          font-size: 15px;
+          margin: 15px 0 30px 0;
+        }
+        .btn2 {
+          width: 180px;
+          height: 53px;
+          border: none;
+          background-color: #fcb72b;
+          color: white;
+          font-family: 'Space Mono';
+          font-size: 15px;
+        }
+        .btn2:hover {
+          background-color: transparent;
+          color: #fcb72b;
+        }
+      }
+      .list-item23 {
+        width: 60%;
+        .group-icon {
+          margin-left: 90px;
+          margin-top: 200px;
+          position: absolute;
+        }
+        .group-img {
+          margin-top: -100px;
+          margin-left: 250px;
+        }
+      }
+    }
+    &__list3 {
+      width: 100%;
+      display: flex;
+      margin-top: 150px;
+      .list-item33 {
+        width: 40%;
+        h3 {
+          width: 445px;
+          font-family: 'Space Mono';
+          font-size: 45px;
+          color: #495567;
+        }
+        p {
+          font-family: 'Lexend Deca';
+          font-size: 15px;
+          margin: 15px 0 30px 0;
+        }
+        .btn3 {
+          width: 180px;
+          height: 53px;
+          border: none;
+          background-color: #fcb72b;
+          color: white;
+          font-family: 'Space Mono';
+          font-size: 15px;
+        }
+        .btn3:hover {
+          background-color: transparent;
+          color: #fcb72b;
+        }
+      }
+      .list-item32 {
+        width: 60%;
+        .group-icon2 {
+          margin-left: -560px;
+          position: absolute;
+        }
+      }
+    }
+    &__list4 {
+      width: 100%;
+      display: flex;
+      margin-top: 150px;
+      .list-item42 {
+        width: 40%;
+        h3 {
+          width: 445px;
+          font-family: 'Space Mono';
+          font-size: 45px;
+          color: #495567;
+        }
+        p {
+          font-family: 'Lexend Deca';
+          font-size: 15px;
+          margin: 15px 0 30px 0;
+        }
+        .btn4 {
+          width: 180px;
+          height: 53px;
+          border: none;
+          background-color: #fcb72b;
+          color: white;
+          font-family: 'Space Mono';
+          font-size: 15px;
+        }
+        .btn4:hover {
+          background-color: transparent;
+          color: #fcb72b;
+        }
+      }
+      .list-item43 {
+        width: 60%;
+        .group-icon3 {
+          margin-left: 520px;
+          position: absolute;
+          margin-top: -50px;
+        }
+        .group-img3 {
+          margin-top: -100px;
+          margin-left: 250px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
